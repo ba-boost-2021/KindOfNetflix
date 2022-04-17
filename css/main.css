@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.frame{
+    background-color: khaki;
+}
+.header{
+    background-color: #333;
+    height: 70px;
+    display: flex;
+}
+.header .logo{
+    width: 230px;
+}
+.header .logo img {
+    width: 200px;
+    margin: 15px;
+}
+.header .search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .user{
+    color: #fff;
+    display: flex;
+    font-weight: 500;
+    width: 280px;
+    justify-content: center;
+    align-items: center;  
+    font-size: 14px;  
+}
+.header .user div {
+    margin: 5px;
+}
+.header .user div:hover {
+    cursor: pointer;
+    background-color: rgb(80, 79, 79);
+}
+.header .search input
+{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sub-header{
+    background-color: #555;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    top: 120px;
+    width: 100%;
+}
+.menu {
+    background-color: #222;
+    width: 370px;
+    color: #fff;
+    padding-left: 10px;
+}
+.menu h3:hover {
+    color: #fe0000;
+    cursor: pointer;
+}
+.menu .categories {
+    list-style: none;
+    padding-left: 10px;
+    margin: 5px;
+}
+.menu .categories li {
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.menu .categories li:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+.menu .categories li a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu .categories li a:hover {
+    color: #fe0000;
+}
+.content{
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content .movie{
+    width: 230px;
+    height: 350px;
+    border: 5px solid #eee;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.content .movie:hover{
+    border: 5px solid #999;
+    cursor: pointer;
+}
+.content .movie img {
+    width: 220px;
+    padding: 5px;
+    height: 300px;
+}
+.content .movie .title{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.content .movie .title h2{
+    margin: 0;
+    font-size: 14px;
+}
+.content .movie .stars {
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(100 100 100 / 70%);
+}
+.votes {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.footer {
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: center;
+    color: #fff;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 50px;
+}
+.footer .links {
+    margin-right: 20px;
+    font-size: 12px;
+}
+.footer .links li{
+    display: inline;
+    height: 20px;
+}
+
+.white {
+    color: #fff;
+}
+
+.yellow {
+    color: #ff0;
+}
